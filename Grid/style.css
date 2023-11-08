@@ -1,0 +1,20 @@
+.iteam {
+    /* height: 30px; */
+    padding: 30px;
+    background-color: aquamarine;
+    margin: 5px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.iteam-1 {
+    grid-row-start:1 ;
+    grid-row-end:3 ;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
